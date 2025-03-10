@@ -18,7 +18,7 @@ Access the vercel deployment at - `https://netflix-clone-lkd9vbibl-siddharth-meh
 
 # Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/Gcwvv4i3hpo/0.jpg)](https://www.youtube.com/watch?v=Gcwvv4i3hpo)
+[![Watch the demo](https://img.youtube.com/vi/xnLVY-dWQ1g/0.jpg)](https://www.youtube.com/watch?v=xnLVY-dWQ1g)
 
 # Credits
 
