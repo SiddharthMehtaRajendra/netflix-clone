@@ -16,6 +16,10 @@ Access the Netflix Clone Website at `http://localhost:5173/`
 
 Access the vercel deployment at - `https://netflix-clone-lkd9vbibl-siddharth-mehtas-projects-bddf6392.vercel.app/`
 
+# Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/Gcwvv4i3hpo/0.jpg)](https://www.youtube.com/watch?v=Gcwvv4i3hpo)
+
 # Credits
 
 Project inspired by `@GreatStackDev` - `https://greatstack.dev/go/netflix`
