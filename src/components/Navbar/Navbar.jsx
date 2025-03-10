@@ -6,6 +6,7 @@ import bellIcon from '../../assets/bell_icon.svg'
 import profile_icon from '../../assets/profile_img.png'
 import dropdown_icon from '../../assets/caret_icon.svg'
 import { logout } from '../../firebase'
+import { toast } from 'react-toastify'
 
 
 const Navbar = () => {
@@ -27,19 +28,19 @@ const Navbar = () => {
       <div className="navbar-left">
       <img src={logo} alt="" />
       <ul>
-        <li>Home</li>
-        <li>TV Shows</li>
-        <li>Movies</li>
-        <li>New & Popular</li>
-        <li>My List</li>
-        <li>Home</li>
-        <li>Browse By Languages</li>
+        <li onClick={() => toast.info('Coming Soon!')}>Home</li>
+        <li onClick={() => toast.info('Coming Soon!')}>TV Shows</li>
+        <li onClick={() => toast.info('Coming Soon!')}>Movies</li>
+        <li onClick={() => toast.info('Coming Soon!')}>New & Popular</li>
+        <li onClick={() => toast.info('Coming Soon!')}>My List</li>
+        <li onClick={() => toast.info('Coming Soon!')}>Home</li>
+        <li onClick={() => toast.info('Coming Soon!')}>Browse By Languages</li>
       </ul>
       </div>
       <div className="navbar-right">
-        <img src={searchIcon} alt="" className='icons' />
-        <p>Children</p>
-        <img src={bellIcon} alt="" className='icons'/>
+        <img onClick={() => toast.info('Coming Soon!')} src={searchIcon} alt="" className='icons' />
+        <p style={{ cursor: 'pointer' }} onClick={() => toast.info('Coming Soon!')}>Children</p>
+        <img onClick={() => toast.info('Coming Soon!')} src={bellIcon} alt="" className='icons'/>
         <div className="navbar-profile">
         <img src={profile_icon} alt="" className='profile' />
         <img src={dropdown_icon} alt="" />

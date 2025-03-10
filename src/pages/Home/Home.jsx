@@ -7,6 +7,7 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'  
 import TitleCards from '../../components/TitleCards/TitleCards'
 import Footer from '../../components/Footer/Footer'
+import { toast } from 'react-toastify'
 
 const Home = () => {
   return (
@@ -20,8 +21,8 @@ const Home = () => {
             Istanbul embarks on a quest to save the city from an immortal enemy.
           </p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt="" />Play</button>
-            <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
+            <button onClick={() => toast.info('Coming Soon!')} className='btn'><img src={play_icon} alt="" />Play</button>
+            <button onClick={() => toast.info('Coming Soon!')} className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
           </div>
           <TitleCards />
         </div>
